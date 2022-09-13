@@ -13,6 +13,19 @@
 		4FD9FFC928D0CD7F00E81FB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD9FFC728D0CD7F00E81FB6 /* Main.storyboard */; };
 		4FD9FFCB28D0CD8400E81FB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD9FFCA28D0CD8400E81FB6 /* Assets.xcassets */; };
 		4FD9FFCE28D0CD8400E81FB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD9FFCC28D0CD8400E81FB6 /* LaunchScreen.storyboard */; };
+		4FD9FFDA28D0CF4500E81FB6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9FFD928D0CF4500E81FB6 /* HomeViewController.swift */; };
+		4FD9FFE028D0D0D400E81FB6 /* RecetaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9FFDE28D0D0D400E81FB6 /* RecetaCell.swift */; };
+		4FD9FFE128D0D0D400E81FB6 /* RecetaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FD9FFDF28D0D0D400E81FB6 /* RecetaCell.xib */; };
+		4FD9FFE328D0D67D00E81FB6 /* RecipesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9FFE228D0D67D00E81FB6 /* RecipesModel.swift */; };
+		4FD9FFE728D0D75F00E81FB6 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9FFE628D0D75F00E81FB6 /* NetworkError.swift */; };
+		4FD9FFE928D0D76F00E81FB6 /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9FFE828D0D76F00E81FB6 /* RequestModel.swift */; };
+		4FD9FFEB28D0DAAA00E81FB6 /* HomeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9FFEA28D0DAAA00E81FB6 /* HomeProvider.swift */; };
+		4FD9FFED28D0DB9800E81FB6 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9FFEC28D0DB9800E81FB6 /* HomePresenter.swift */; };
+		4FD9FFF128D0EC3A00E81FB6 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FD9FFF028D0EC3A00E81FB6 /* recipes.json */; };
+		4FD9FFF328D0EC6900E81FB6 /* JsonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9FFF228D0EC6900E81FB6 /* JsonUtils.swift */; };
+		4FD9FFF528D0ECDF00E81FB6 /* MockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9FFF428D0ECDF00E81FB6 /* MockManager.swift */; };
+		4FD9FFF728D0ED2500E81FB6 /* HomeProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9FFF628D0ED2500E81FB6 /* HomeProviderMock.swift */; };
+		4FD9FFF928D0FA5A00E81FB6 /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9FFF828D0FA5A00E81FB6 /* ServiceLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,19 @@
 		4FD9FFCA28D0CD8400E81FB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FD9FFCD28D0CD8400E81FB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FD9FFCF28D0CD8400E81FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD9FFD928D0CF4500E81FB6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4FD9FFDE28D0D0D400E81FB6 /* RecetaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecetaCell.swift; sourceTree = "<group>"; };
+		4FD9FFDF28D0D0D400E81FB6 /* RecetaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecetaCell.xib; sourceTree = "<group>"; };
+		4FD9FFE228D0D67D00E81FB6 /* RecipesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesModel.swift; sourceTree = "<group>"; };
+		4FD9FFE628D0D75F00E81FB6 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		4FD9FFE828D0D76F00E81FB6 /* RequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
+		4FD9FFEA28D0DAAA00E81FB6 /* HomeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProvider.swift; sourceTree = "<group>"; };
+		4FD9FFEC28D0DB9800E81FB6 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		4FD9FFF028D0EC3A00E81FB6 /* recipes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
+		4FD9FFF228D0EC6900E81FB6 /* JsonUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonUtils.swift; sourceTree = "<group>"; };
+		4FD9FFF428D0ECDF00E81FB6 /* MockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MockManager.swift; path = RecetasChallenge/Utility/MockManager.swift; sourceTree = SOURCE_ROOT; };
+		4FD9FFF628D0ED2500E81FB6 /* HomeProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProviderMock.swift; sourceTree = "<group>"; };
+		4FD9FFF828D0FA5A00E81FB6 /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,10 @@
 		4FD9FFC028D0CD7F00E81FB6 /* RecetasChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				4FD9FFEE28D0EBE800E81FB6 /* Utility */,
+				4FD9FFD728D0CEDE00E81FB6 /* NetworkService */,
+				4FD9FFD628D0CEDA00E81FB6 /* Model */,
+				4FD9FFD828D0CF0700E81FB6 /* Home */,
 				4FD9FFC128D0CD7F00E81FB6 /* AppDelegate.swift */,
 				4FD9FFC328D0CD7F00E81FB6 /* SceneDelegate.swift */,
 				4FD9FFC528D0CD7F00E81FB6 /* ViewController.swift */,
@@ -65,6 +95,87 @@
 				4FD9FFCF28D0CD8400E81FB6 /* Info.plist */,
 			);
 			path = RecetasChallenge;
+			sourceTree = "<group>";
+		};
+		4FD9FFD528D0CED100E81FB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9FFDD28D0D09E00E81FB6 /* CustomCell */,
+				4FD9FFD928D0CF4500E81FB6 /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4FD9FFD628D0CEDA00E81FB6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9FFE228D0D67D00E81FB6 /* RecipesModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4FD9FFD728D0CEDE00E81FB6 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9FFE628D0D75F00E81FB6 /* NetworkError.swift */,
+				4FD9FFE828D0D76F00E81FB6 /* RequestModel.swift */,
+				4FD9FFF828D0FA5A00E81FB6 /* ServiceLayer.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		4FD9FFD828D0CF0700E81FB6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9FFD528D0CED100E81FB6 /* View */,
+				4FD9FFDC28D0CF6300E81FB6 /* Presenter */,
+				4FD9FFDB28D0CF5A00E81FB6 /* Provider */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4FD9FFDB28D0CF5A00E81FB6 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9FFEA28D0DAAA00E81FB6 /* HomeProvider.swift */,
+				4FD9FFF628D0ED2500E81FB6 /* HomeProviderMock.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		4FD9FFDC28D0CF6300E81FB6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9FFEC28D0DB9800E81FB6 /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		4FD9FFDD28D0D09E00E81FB6 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9FFDE28D0D0D400E81FB6 /* RecetaCell.swift */,
+				4FD9FFDF28D0D0D400E81FB6 /* RecetaCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		4FD9FFEE28D0EBE800E81FB6 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9FFEF28D0EBF200E81FB6 /* Mock */,
+				4FD9FFF228D0EC6900E81FB6 /* JsonUtils.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		4FD9FFEF28D0EBF200E81FB6 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9FFF028D0EC3A00E81FB6 /* recipes.json */,
+				4FD9FFF428D0ECDF00E81FB6 /* MockManager.swift */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +236,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FD9FFF128D0EC3A00E81FB6 /* recipes.json in Resources */,
 				4FD9FFCE28D0CD8400E81FB6 /* LaunchScreen.storyboard in Resources */,
 				4FD9FFCB28D0CD8400E81FB6 /* Assets.xcassets in Resources */,
 				4FD9FFC928D0CD7F00E81FB6 /* Main.storyboard in Resources */,
+				4FD9FFE128D0D0D400E81FB6 /* RecetaCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +251,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FD9FFE028D0D0D400E81FB6 /* RecetaCell.swift in Sources */,
+				4FD9FFE728D0D75F00E81FB6 /* NetworkError.swift in Sources */,
+				4FD9FFE328D0D67D00E81FB6 /* RecipesModel.swift in Sources */,
+				4FD9FFF528D0ECDF00E81FB6 /* MockManager.swift in Sources */,
 				4FD9FFC628D0CD7F00E81FB6 /* ViewController.swift in Sources */,
+				4FD9FFF328D0EC6900E81FB6 /* JsonUtils.swift in Sources */,
+				4FD9FFEB28D0DAAA00E81FB6 /* HomeProvider.swift in Sources */,
+				4FD9FFE928D0D76F00E81FB6 /* RequestModel.swift in Sources */,
 				4FD9FFC228D0CD7F00E81FB6 /* AppDelegate.swift in Sources */,
 				4FD9FFC428D0CD7F00E81FB6 /* SceneDelegate.swift in Sources */,
+				4FD9FFDA28D0CF4500E81FB6 /* HomeViewController.swift in Sources */,
+				4FD9FFED28D0DB9800E81FB6 /* HomePresenter.swift in Sources */,
+				4FD9FFF728D0ED2500E81FB6 /* HomeProviderMock.swift in Sources */,
+				4FD9FFF928D0FA5A00E81FB6 /* ServiceLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
