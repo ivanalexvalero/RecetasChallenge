@@ -31,7 +31,7 @@ struct RequestModel {
     }
     
     enum URLBase: String {
-        case recipe = "http://hf-android-app.s3-eu-west-1.amazonaws.com"
+        case recipe = "https://hf-android-app.s3-eu-west-1.amazonaws.com"
     }
     
 }

@@ -26,9 +26,13 @@
 		4FD9FFF528D0ECDF00E81FB6 /* MockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9FFF428D0ECDF00E81FB6 /* MockManager.swift */; };
 		4FD9FFF728D0ED2500E81FB6 /* HomeProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9FFF628D0ED2500E81FB6 /* HomeProviderMock.swift */; };
 		4FD9FFF928D0FA5A00E81FB6 /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9FFF828D0FA5A00E81FB6 /* ServiceLayer.swift */; };
+		4FD9FFFD28D108B700E81FB6 /* DetailRecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9FFFB28D108B700E81FB6 /* DetailRecipesViewController.swift */; };
+		4FD9FFFE28D108B700E81FB6 /* DetailRecipesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FD9FFFC28D108B700E81FB6 /* DetailRecipesViewController.xib */; };
+		67C3F46AAF44A45035FD51D9 /* Pods_RecetasChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E61C20475E157A493025ADB /* Pods_RecetasChallenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E61C20475E157A493025ADB /* Pods_RecetasChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecetasChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD9FFBE28D0CD7F00E81FB6 /* RecetasChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecetasChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD9FFC128D0CD7F00E81FB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FD9FFC328D0CD7F00E81FB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +54,10 @@
 		4FD9FFF428D0ECDF00E81FB6 /* MockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MockManager.swift; path = RecetasChallenge/Utility/MockManager.swift; sourceTree = SOURCE_ROOT; };
 		4FD9FFF628D0ED2500E81FB6 /* HomeProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProviderMock.swift; sourceTree = "<group>"; };
 		4FD9FFF828D0FA5A00E81FB6 /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
+		4FD9FFFB28D108B700E81FB6 /* DetailRecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRecipesViewController.swift; sourceTree = "<group>"; };
+		4FD9FFFC28D108B700E81FB6 /* DetailRecipesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailRecipesViewController.xib; sourceTree = "<group>"; };
+		574C9A515C8670638273F939 /* Pods-RecetasChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecetasChallenge.release.xcconfig"; path = "Target Support Files/Pods-RecetasChallenge/Pods-RecetasChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		B676DC64329ABACED9E0E56B /* Pods-RecetasChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecetasChallenge.debug.xcconfig"; path = "Target Support Files/Pods-RecetasChallenge/Pods-RecetasChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67C3F46AAF44A45035FD51D9 /* Pods_RecetasChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +77,8 @@
 			children = (
 				4FD9FFC028D0CD7F00E81FB6 /* RecetasChallenge */,
 				4FD9FFBF28D0CD7F00E81FB6 /* Products */,
+				9334718EAB8625A5D43BF2E4 /* Pods */,
+				BFFFAD94F16EA3F9FCED8347 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +93,7 @@
 		4FD9FFC028D0CD7F00E81FB6 /* RecetasChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				4FD9FFFA28D1087D00E81FB6 /* Detail */,
 				4FD9FFEE28D0EBE800E81FB6 /* Utility */,
 				4FD9FFD728D0CEDE00E81FB6 /* NetworkService */,
 				4FD9FFD628D0CEDA00E81FB6 /* Model */,
@@ -178,6 +190,33 @@
 			path = Mock;
 			sourceTree = "<group>";
 		};
+		4FD9FFFA28D1087D00E81FB6 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9FFFB28D108B700E81FB6 /* DetailRecipesViewController.swift */,
+				4FD9FFFC28D108B700E81FB6 /* DetailRecipesViewController.xib */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		9334718EAB8625A5D43BF2E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B676DC64329ABACED9E0E56B /* Pods-RecetasChallenge.debug.xcconfig */,
+				574C9A515C8670638273F939 /* Pods-RecetasChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BFFFAD94F16EA3F9FCED8347 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E61C20475E157A493025ADB /* Pods_RecetasChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -185,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FD9FFD228D0CD8400E81FB6 /* Build configuration list for PBXNativeTarget "RecetasChallenge" */;
 			buildPhases = (
+				9FA2E1F1A8B59AD8ACC827FC /* [CP] Check Pods Manifest.lock */,
 				4FD9FFBA28D0CD7F00E81FB6 /* Sources */,
 				4FD9FFBB28D0CD7F00E81FB6 /* Frameworks */,
 				4FD9FFBC28D0CD7F00E81FB6 /* Resources */,
+				2FC604C0236B97541C33DC39 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,10 +282,53 @@
 				4FD9FFCB28D0CD8400E81FB6 /* Assets.xcassets in Resources */,
 				4FD9FFC928D0CD7F00E81FB6 /* Main.storyboard in Resources */,
 				4FD9FFE128D0D0D400E81FB6 /* RecetaCell.xib in Resources */,
+				4FD9FFFE28D108B700E81FB6 /* DetailRecipesViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FC604C0236B97541C33DC39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecetasChallenge/Pods-RecetasChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecetasChallenge/Pods-RecetasChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RecetasChallenge/Pods-RecetasChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FA2E1F1A8B59AD8ACC827FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecetasChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4FD9FFBA28D0CD7F00E81FB6 /* Sources */ = {
@@ -264,6 +348,7 @@
 				4FD9FFDA28D0CF4500E81FB6 /* HomeViewController.swift in Sources */,
 				4FD9FFED28D0DB9800E81FB6 /* HomePresenter.swift in Sources */,
 				4FD9FFF728D0ED2500E81FB6 /* HomeProviderMock.swift in Sources */,
+				4FD9FFFD28D108B700E81FB6 /* DetailRecipesViewController.swift in Sources */,
 				4FD9FFF928D0FA5A00E81FB6 /* ServiceLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +493,7 @@
 		};
 		4FD9FFD328D0CD8400E81FB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B676DC64329ABACED9E0E56B /* Pods-RecetasChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -435,6 +521,7 @@
 		};
 		4FD9FFD428D0CD8400E81FB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 574C9A515C8670638273F939 /* Pods-RecetasChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

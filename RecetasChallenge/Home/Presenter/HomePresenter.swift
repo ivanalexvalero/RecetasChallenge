@@ -33,7 +33,7 @@ class HomePresenter {
         do {
             let listRecipes = try await provider.getRecetas()
             
-            recipesList.append(listRecipes.recipesJson)
+            recipesList.append(listRecipes.recipesJson ?? [])
             
             delegate?.getData(list: recipesList)
             

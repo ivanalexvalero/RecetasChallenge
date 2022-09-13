@@ -38,8 +38,8 @@ class ServiceLayer {
             
             let decoder = JSONDecoder()
             do {
-                let decodeData = try decoder.decode([RecipesModel].self, from: data)
-                return decodeData[0]
+                let decodeData = try decoder.decode(RecipesModel.self, from: data)
+                return decodeData
             }catch {
                 print(error)
                 throw NetworkError.couldNotDecodeData
